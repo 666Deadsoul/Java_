@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sort",
+            "request": "launch",
+            "mainClass": "arrays.Sort",
+            "projectName": "new_e58d6c95"
+        },
+        {
+            "type": "java",
+            "name": "MaxMin",
+            "request": "launch",
+            "mainClass": "arrays.MaxMin",
+            "projectName": "new_e58d6c95"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
