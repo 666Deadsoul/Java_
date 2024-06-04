@@ -1,4 +1,4 @@
-package methods;
+package method;
 
 public class Palindrom {
     public void checker(int num){

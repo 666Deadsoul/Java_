@@ -1,4 +1,4 @@
-package methods;
+package method;
 import java.util.Scanner;
 public class OddEven {
     public boolean Checker(int n){

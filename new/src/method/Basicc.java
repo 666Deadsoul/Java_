@@ -1,4 +1,4 @@
-package methods;
+package method;
 
 public class Basicc {
     public String rev(String name){
