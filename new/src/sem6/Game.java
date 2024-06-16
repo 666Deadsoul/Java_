@@ -10,15 +10,15 @@ public class Game implements MouseListener{
     JLabel lbl;
 
     Game(){
-        JFrame jf = new JFrame("Game");
-        lbl = new JLabel();
-        btn = new JButton("Click me");
-        btn.setBounds(10,10,100,20);
-        btn.addMouseListener(this);
-        jf.add(btn);
-        jf.setSize(500,500);
-        jf.setLayout(null);
-        jf.setVisible(true);
+        JFrame jf = new JFrame("Game");            //creating frame with title
+        lbl = new JLabel();                              //creating object of label
+        btn = new JButton("Click me");              //creating object for button with btn title
+        btn.setBounds(10,10,100,20);    //setting the position and size of component
+        btn.addMouseListener(this);                      //implementing eventlistner for button
+        jf.add(btn);                                     // adding component to the frame
+        jf.setSize(500,500);                //setting the size of the frame
+        jf.setLayout(null);                      //setting the layout of the frame
+        jf.setVisible(true);                           // to show the component in frame
         lbl.setBounds(40,50,100,20);
         jf.add(lbl);
     }
