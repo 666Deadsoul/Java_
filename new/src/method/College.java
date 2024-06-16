@@ -25,8 +25,7 @@ class College {
         College.name = inputName;
             
         // call the static method
-        College c= new College();
-        c.display();
+       College.display();
         
         input.close();
     }
