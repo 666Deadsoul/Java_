@@ -1,4 +1,4 @@
-package JavaCollection;
+package JavaCollection.ArrayList;
 import java.util.ArrayList;
 
 public class ArrLi {

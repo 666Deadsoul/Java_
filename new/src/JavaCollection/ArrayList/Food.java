@@ -1,4 +1,4 @@
-package JavaCollection;
+package JavaCollection.ArrayList;
 import java.util.ArrayList;
 //adding element using index in arraylist
 public class Food {

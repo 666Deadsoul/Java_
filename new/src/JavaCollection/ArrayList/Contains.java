@@ -1,4 +1,4 @@
-package JavaCollection;
+package JavaCollection.ArrayList;
 import java.util.ArrayList;
 
 //to check if the value is in array list or not
