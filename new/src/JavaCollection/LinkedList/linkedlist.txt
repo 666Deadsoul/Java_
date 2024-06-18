@@ -1,0 +1,9 @@
+In Java, we use the LinkedList class to implement the functionality of a doubly linked list data structure.
+Prev - Stores the address of the previous element. null for the first element
+Next - Stores the address of the next element. null for the last element
+Data - Stores the actual data
+create: LinkedList<String> movies = new LinkedList<>();
+Add elements to a linkedlist
+Access elements from a linkedlist
+Change elements of a linkedlist
+Remove elements from a linkedlist
