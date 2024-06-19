@@ -5,3 +5,11 @@ That is why the queue is also known as First in First out. data structure.
 In queue data structure elements are:
 - added from the back (rear)
 - removed from the front
+
+As mentioned earlier, LinkedList class in Java implements Deque interface. Hence, LinkedList can provide functionality deque data structures.
+
+To use LinkedList as a dequeue, we use the following methods:
+addFirst() - adds an element at the beginning of the deque
+addLast() - adds an element at the end of the deque
+removeFirst() - removes the first element of the deque
+removeLast() - removes the last element of the deque
