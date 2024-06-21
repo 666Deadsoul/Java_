@@ -5,3 +5,10 @@ unlike arraylist and linkedlist, elements in a hashset cannot have duplicate val
 
 import java.util.HashSet;
 HashSet<String> animals = new HashSet<>();
+
+Cannot duplicate items
+
+Operations:
+-Union of Sets: addAll()
+-Intersection of Sets
+-Difference of Sets
