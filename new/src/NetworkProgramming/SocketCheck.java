@@ -1,4 +1,4 @@
-package InetAddress;
+package NetworkProgramming;
 import java.net.*;
 
 //to check the socket

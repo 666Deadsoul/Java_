@@ -1,4 +1,4 @@
-package InetAddress;
+package NetworkProgramming;
 import java.net.*;
 
 public class IPv4orIPv6 {
