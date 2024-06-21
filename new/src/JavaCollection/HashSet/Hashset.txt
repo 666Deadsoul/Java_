@@ -12,3 +12,5 @@ Operations:
 -Union of Sets: addAll()
 -Intersection of Sets: retainAll()
 -Difference of Sets: removeAll()
+
+To check if one HS is subset of another HS: h1.containsAll(h2);
