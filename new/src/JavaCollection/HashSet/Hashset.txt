@@ -1,0 +1,7 @@
+In Java, if we need to perform set-related operations, we use hashset because it provides the functionality of a mathematical set.
+
+For example, if we need to store unique elements, it's better to use a hashset because, 
+unlike arraylist and linkedlist, elements in a hashset cannot have duplicate values.
+
+import java.util.HashSet;
+HashSet<String> animals = new HashSet<>();
