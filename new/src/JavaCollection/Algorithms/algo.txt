@@ -7,6 +7,7 @@ min() / max() - finds the minimum and maximum element
 reverse() - used to reverse elements
 swap() -  to swap elements in a Collection.
 fill() - to fill all elements with a specified value.
+copy() - to copy one collection to another collection.
 
 The sort() method is a static method, so we don't have to create an object to access it, we can simply use it using the class name, Collections.sort().
 
@@ -23,3 +24,7 @@ int j - index of the element to swap
 Collections.fill(Collection c, T obj)
 Collection c - name of the Collection (arraylist)
 T obj - value we want to fill the arraylist with
+
+Collections.copy(Collection dest, Collection src)
+Collection dest - destination file
+Collection src - source file
