@@ -1,0 +1,6 @@
+The Java collections framework provides static methods that provide the functionality of different types of algorithms.
+
+sort() - sorts the elements in a collection
+shuffle() - shuffles the elements to destroy any kind of order
+binarySearch() - searches for the specified element
+min() / max() - finds the minimum and maximum element
