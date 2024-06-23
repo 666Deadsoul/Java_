@@ -5,6 +5,7 @@ shuffle() - shuffles the elements to destroy any kind of order
 binarySearch() - searches for the specified element
 min() / max() - finds the minimum and maximum element
 reverse() - used to reverse elements
+swap() -  to swap elements in a Collection.
 
 The sort() method is a static method, so we don't have to create an object to access it, we can simply use it using the class name, Collections.sort().
 The binarySearch() method returns the position of an element in integer form. Hence, we have stored the result in the integer type position variable.
@@ -13,3 +14,9 @@ Also, for binarySearch() to work, the arraylist should be sorted.
 The binarySearch() method returns the position of an element in integer form. Hence, we have stored the result in the integer type position variable.
 
 Also, for binarySearch() to work, the arraylist should be sorted.
+
+Collections.swap(Collection c, int i, int j)
+
+Collection c - name of the Collection (arraylist)
+int i - index of the element to swap
+int j - index of the element to swap
