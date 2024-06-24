@@ -1,5 +1,4 @@
-import java.net.NetworkInterface;
-import java.net.SocketException;
+import java.net.*;
 import java.util.Enumeration;
 
 // To list all network interfaces
