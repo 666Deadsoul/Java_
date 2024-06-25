@@ -7,10 +7,10 @@ public class IPv4orIPv6 {
             InetAddress add = InetAddress.getByName("www.kbc.edu.np");
             byte[] address = add.getAddress();
             if(address.length == 4){
-                System.out.println("IPV4");
+                System.out.println(add +" is IPV4");
             }
             else{
-                System.out.println("IPV6");
+                System.out.println(add +" is IPV6");
             }
         }
         catch(UnknownHostException ex){
