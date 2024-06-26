@@ -1,0 +1,9 @@
+To read content of a file
+
+FileReader copy = new FileReader("message.txt");
+copy.read(contents);
+
+To write the content of the file
+
+FileWriter paste = new FileWriter("output.txt");
+paste.write(contents);
