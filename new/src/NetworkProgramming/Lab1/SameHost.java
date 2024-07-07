@@ -1,4 +1,4 @@
-package NetworkProgramming;
+package NetworkProgramming.Lab1;
 import java.net.*;
 
 //to check if two hostname is same or not

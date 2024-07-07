@@ -1,4 +1,4 @@
-package NetworkProgramming;
+package NetworkProgramming.Lab1;
 
 import java.net.*;
 //lab1 qn 2

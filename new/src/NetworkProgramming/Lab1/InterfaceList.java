@@ -1,4 +1,4 @@
-package NetworkProgramming;
+package NetworkProgramming.Lab1;
 // package InetAddress;
 // import java.net.*;
 // import java.util.Enumeration;

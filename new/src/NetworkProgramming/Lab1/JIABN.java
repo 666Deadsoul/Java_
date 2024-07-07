@@ -1,4 +1,4 @@
-package NetworkProgramming;
+package NetworkProgramming.Lab1;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
