@@ -7,18 +7,18 @@ public class MVC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name= sc.nextLine();
-        String roll = sc.nextLine();
+        String email = sc.nextLine();
         String add = sc.nextLine();
-        Student model = retriveStudent(name,roll,add);
-        StudentView view = new StudentView();
-        StudentController controller = new StudentController(model, view);
+        Employee model = retriveEmployee(name,email,add);
+        EmployeeView view = new EmployeeView();
+        EmployeeController controller = new EmployeeController(model, view);
         controller.updateView();
     }
-    private static Student retriveStudent(String n, String r, String a){
-        Student student = new Student();
-        student.setName(n);
-        student.setRoll(r);
-        student.setAddress(a);
-        return student;
+    private static Employee retriveEmployee(String n, String r, String a){
+        Employee employee = new Employee();
+        employee.setName(n);
+        employee.setemail(r);
+        employee.setAddress(a);
+        return employee;
     }
 }

@@ -1,10 +1,10 @@
 package lab.MVC;
 
-//controller
-public class StudentController {
-    private Student model;
-    private StudentView view;
-    public StudentController(Student model, StudentView view){
+//contemailer
+public class EmployeeController{
+    private Employee model;
+    private EmployeeView view;
+    public EmployeeController(Employee model, EmployeeView view){
         this.model = model;
         this.view = view;
     }
@@ -15,11 +15,11 @@ public class StudentController {
         return model.getName();
     }
 
-    public void setStdroll(String roll){
-        model.setRoll(roll);
+    public void setStdemail(String email){
+        model.setemail(email);
     }
-    public String getStdroll(){
-        return model.getRoll();
+    public String getStdemail(){
+        return model.getemail();
     }
 
     public void setStdadd(String add){
@@ -30,6 +30,6 @@ public class StudentController {
     }
 
     public void updateView(){
-        view.printDetails(model.getName(), model.getRoll(), model.getAddress());
+        view.printDetails(model.getName(), model.getemail(), model.getAddress());
     }
 }

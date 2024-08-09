@@ -1,9 +1,9 @@
 package lab.MVC;
 
 //model
-public class Student {
+public class Employee {
     private String name;
-    private String roll;
+    private String email;
     private String address;
     
     public void setName(String name){
@@ -13,11 +13,11 @@ public class Student {
         return name;
     }
 
-    public void setRoll(String roll){
-        this.roll = roll;
+    public void setemail(String email){
+        this.email = email;
     }
-    public String getRoll(){
-        return roll;
+    public String getemail(){
+        return email;
     }
     public void setAddress(String address){
         this.address = address;
